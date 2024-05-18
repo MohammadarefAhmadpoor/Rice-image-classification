@@ -1,0 +1,2 @@
+# Rice image classification | CNN
+ 

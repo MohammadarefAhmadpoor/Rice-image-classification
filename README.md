@@ -33,22 +33,4 @@ To run this project, you need to have the following dependencies installed:
 4. Run the script, and it will preprocess the data, split it into training, validation, and test sets, and train the CNN model.
 5. The trained model will be saved as `CNN_Model.h5` in the current working directory.
 
-## Code Overview
- 
- Steps:
 
-1. **Data Loading and Exploration**: The images and their corresponding labels are loaded from the dataset directory, and some exploratory visualizations are generated to understand the data distribution.
-2. **Data Preprocessing**: The dataset is split into training, validation, and test sets using the `splitfolders` library.
-3. **Data Preparation**: The images are loaded and preprocessed using Keras' `image_dataset_from_directory` function, which handles resizing, batching, and one-hot encoding of labels.
-4. **Model Definition**: A sequential CNN model is defined using Keras' functional API. The model consists of convolutional layers, max-pooling layers, flattening, and dense layers with ReLU and softmax activations.
-5. **Model Training**: The model is trained on the training set, with the validation set used for monitoring the model's performance during training.
-6. **Visualization of Training Progress**: The training and validation loss and accuracy are plotted to monitor the model's convergence.
-7. **Model Saving and Loading**: The trained model is saved as an HDF5 file (`CNN_Model.h5`) and then loaded back for evaluation or inference.
-
-## Results
-
-The trained CNN model achieves an accuracy of around 95% on the validation set after 15 epochs of training, but it isn't be. The exact performance may vary depending on the specific hardware and randomization used during training.
-
-## Contributing
-
-Contributions to this project are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.

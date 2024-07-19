@@ -1,28 +1,18 @@
 # Rice Image Classification using Deep Learning
 
-This repository contains a Tensorflow implementation of a Convolutional Neural Network (CNN) model for classifying different varieties of rice grains based on their images. The model is trained on the Rice Image Dataset, which consists of images of five different rice varieties: Arborio, Basmati, Ipsala, Jasmine, and Karacadag.
+This repository contains Tensorflow and Pytorch implementation of a Convolutional Neural Network (CNN) model for classifying different varieties of rice grains based on their images. The model is trained on the [Rice Image Dataset](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset), which consists of images of five different rice varieties: Arborio, Basmati, Ipsala, Jasmine, and Karacadag.
 
-## Dataset
+## Abstract
 
-The Rice Image Dataset used in this project is available on Kaggle. It can be downloaded from the following link:
+Rice, which is among the most widely produced grain products worldwide, has many genetic varieties. These varieties are separated from each other due to some of their features. These are usually features such as texture, shape, and color. With these features that distinguish rice varieties, it is possible to classify and evaluate the quality of seeds. This repository used Arborio, Basmati, Ipsala, Jasmine and Karacadag, which are five different varieties of rice often grown in Turkey. A total of 75,000 grain images, 15,000 from each of these varieties, are included in the dataset. A second dataset with 106 features including 12 morphological, 4 shape and 90 color features obtained from these images was used. Models were created using the Convolutional Neural Network (CNN) using both Pytorch and Tesnorflow libraries for building different CNN architectures. Classification successes from the models were achieved as 99.01% with Tensorflow and 99.95% for DNN and 100% for CNN. With the results, it is seen that the models used in the study in the classification of rice varieties can be applied successfully in this field
 
-https://www.kaggle.com/datasets/dollarzerobidsl/rice-image-dataset
 
 The dataset contains a total of 5,947 images of rice grains, categorized into five different classes. The images are stored in separate folders for each class.
-[![](./src/Rice1.png)](#)
-[![](./src/Rice2.png)](#)
+
+
 
 ## Requirements
 
-To run this project, you need to have the following dependencies installed:
-
-- Tensorflow
-- Keras
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- splitfolders
 
 
 ## Usage
